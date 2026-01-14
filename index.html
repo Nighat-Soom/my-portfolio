@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nighat Soom</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/media/img/logo.png" type="image/x-icon">
+
+    <!-- BS Links -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Font -->
+    <link rel="stylesheet" href="assets/css/font.css">
+
+    <!-- FA Icons Link -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+    <!-- aos link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <div class="d-flex">
+                    <div class="logo-size">
+                        <img class="w-100" src="assets/media/img/logo.png" alt="">
+                    </div>
+                    
+                    <h1 class="mt-1 ms-2 fw-bold text-danger">NS</h1>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel" data-bs-backdrop="static" data-bs-keyboard="false">
+                <div class="offcanvas-header btn-shadow">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item mt-2 me-3">
+                            <a class="nav-link scroll-link" href="#home">HOME</a>
+                        </li>
+                        <li class="nav-item mt-2 me-3">
+                            <a class="nav-link scroll-link" href="#features">SKILLS</a>
+                        </li>
+                        <li class="nav-item mt-2 me-3">
+                            <a class="nav-link scroll-link" href="#portfolio">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item mt-2 me-3">
+                            <a class="nav-link scroll-link" href="#clients">CLIENTS</a>
+                        </li>
+                        <li class="nav-item mt-2 me-4">
+                            <a class="nav-link scroll-link" href="#contact">CONTACT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn p-3 pe-4 ps-4" href="assets/media/img/my-CV.pdf" target="_blank">
+                                RESUME
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Hero -->
+
+    <section id="home">
+        <div class="bg">
+            <div class="container">
+
+                <div class="row">
+                    <!-- Slider Content -->
+                    <div class="col-12 col-md-7 col-lg-8 order-md-1 order-sm-2 order-2 order-lg-1">
+                        <div class="l-spacing">
+                            WELCOME TO MY WORLD
+                        </div>
+
+                        <div class="text-slider custom-text mt-3">
+                            <span class="intro"> Hi, I’m <span class="color">Nighat Soom <br> a</span></span>
+                            <span class="text">Professional Coder.</span>
+                            <span class="cursor">|</span>
+                        </div>
+
+                        <div class="col-12 col-lg-10">
+                            <p class="text-muted mt-3">Skilled Full Stack Web Developer with hands-on experience developing responsive web applications and integrating backend services using Python & Django. Passionate about writing clean code, building user-friendly interfaces, and delivering reliable web solutions.</p>
+                        </div>
+
+                        <div class="col-12 mt-4">
+                            <div class="h">FIND ME ON</div>
+                            <div class="mt-4">
+
+                                <a class="box1" href="https://api.whatsapp.com/send/?phone=%2B923464278103&text&type=phone_number&app_absent=0" target="_blank">
+                                    <svg class="z-index" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" fill="#FFFFF"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+                                </a>
+
+                                <a class="box1 ms-3" href="mailto:kashafsiya@gmail.com" target="_blank">
+                                    <svg class="z-index" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="20" height="20" fill="#000000"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg>
+                                </a>
+
+                                <a class="box1 ms-3" href="https://www.linkedin.com/in/nighat-soom-574750272/" target="_blank"><svg class="z-index" xmlns="http://www.w3.org/2000/svg"
+                                        width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        class="feather feather-linkedin">
+                                        <path
+                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                        </path>
+                                        <rect x="2" y="9" width="4" height="12"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg></a>
+
+                                <a class="box1 ms-3" href="https://github.com/Nighat-Soom" target="_blank">
+                                    <svg class="z-index" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                        viewBox="0 0 496 512">
+                                        <path
+                                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                                    </svg>
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Slider Image -->
+                    <div class="col-12 col-md-5 col-lg-4 ms-auto order-md-2 order-sm-1 order-1 order-lg-2 mt-5">
+                        <div class="box mt-4 rounded-3 h-100">
+                            <img class="w-100 mt-3 rounded-3" src="assets/media/img/img (4).jpg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+                <hr class="mt">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Skills -->
+
+    <section id="features">
+        <div class="bg mt">
+            <div class="container">
+                <div class="text-center">
+                    <div class="subtitle">SKILLS</div>
+                    <h1 class="f-bold mt-2">What I Do</h1>
+                </div>
+
+                <div class="row align-items-stretch mt-5">
+                    <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
+                        <div class="card s2-box border-0 h-100">
+                            <div class="card-body p-5">
+                                <svg class="svg-clr" fill="currentColor" width="50" height="50" viewBox="0 0 512 512" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" stroke="#ff0000">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                      <g id="mobile_phone-smartphone-phone-heart-love">
+                                        <path d="M305.376,217.024c10.275,13.376,8.235,32.626-3.614,44.605l-32.5,32.855c-7.318,7.398-19.204,7.398-26.522,0l-32.5-32.855 c-11.85-11.979-13.889-31.229-3.614-44.605c12.415-16.161,35.529-17.243,49.375-3.245 C269.847,199.782,292.961,200.863,305.376,217.024z M407.405,111.248l-19.953,20.461c-1.02,1.048-2.188,1.874-3.414,2.594v305.734 c0,22.055-17.945,40-40,40h-176c-22.055,0-40-17.945-40-40v-21.692c-1.257-0.729-2.456-1.57-3.5-2.644l-19.945-20.453 c-10.133-10.398-11.266-26.375-2.625-37.18c4.813-6.008,11.914-9.672,19.484-10.039c2.223-0.123,4.43,0.105,6.586,0.553V72.037 c0-22.055,17.945-40,40-40h176c19.542,0,35.793,14.108,39.258,32.662c2.343-0.548,4.771-0.796,7.25-0.669 c7.57,0.367,14.672,4.031,19.484,10.039c0,0,0,0,0.008,0C418.67,84.866,417.545,100.85,407.405,111.248z M224.037,440h64 c8.837,0,16-7.164,16-16s-7.163-16-16-16h-64c-8.836,0-16,7.164-16,16S215.201,440,224.037,440z M368.037,376V134.345 c-1.257-0.729-2.456-1.57-3.5-2.644l-19.945-20.453c-6.283-6.447-9.088-15.038-8.267-23.211H144.037v260.528 c2.114-0.432,4.284-0.656,6.508-0.536c7.57,0.367,14.672,4.031,19.484,10.039c0,0,0,0,0.008,0 c4.141,5.179,5.977,11.554,5.709,17.931H368.037z M135.998,404.537l19.953-20.461c4.438-4.547,5.133-11.578,1.586-16.008 c-1.977-2.469-4.734-3.906-7.773-4.055c-2.991-0.147-5.826,0.98-7.983,3.156c-1.455,1.512-3.478,2.469-5.744,2.469 c-0.014,0-0.025-0.008-0.039-0.008l0,0c-0.027,0-0.052-0.016-0.079-0.016c-1.062-0.017-2.08-0.217-3.002-0.608 c-0.624-0.26-1.134-0.719-1.676-1.129c-0.279-0.215-0.622-0.344-0.87-0.593c-0.029-0.029-0.071-0.038-0.099-0.067 c-2.039-2.086-4.688-3.219-7.516-3.219c-0.172,0-0.344,0.008-0.523,0.016c-3.031,0.148-5.797,1.586-7.773,4.055 c-3.539,4.43-2.844,11.461,1.586,16.008L135.998,404.537z M397.537,84.069c-1.977-2.469-4.734-3.906-7.773-4.055 c-2.976-0.116-5.826,0.981-7.983,3.157c-1.455,1.511-3.478,2.468-5.744,2.468c-0.014,0-0.025-0.008-0.039-0.008l0,0 c-0.027,0-0.052-0.016-0.079-0.016c-1.062-0.017-2.08-0.217-3.002-0.608c-0.624-0.26-1.134-0.719-1.676-1.129 c-0.279-0.215-0.622-0.344-0.87-0.593c-0.029-0.029-0.071-0.038-0.099-0.067c-2.039-2.086-4.688-3.219-7.516-3.219 c-0.172,0-0.344,0.008-0.523,0.016c-3.031,0.148-5.797,1.586-7.773,4.055c-3.539,4.43-2.844,11.461,1.586,16.008l19.953,20.461 l19.953-20.461C400.389,95.53,401.084,88.498,397.537,84.069z"></path>
+                                      </g>
+                                      <g id="Layer_1"></g>
+                                    </g>
+                                  </svg>
+                                <h4 class="card-title mt-3">React Development</h4>
+                                <p class="mt-3">Building dynamic, responsive, and interactive user interfaces using React. Skilled in component-based architecture, state management, and creating seamless user experiences.
+
+                                </p>
+                                <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" height="40px"
+                                    viewBox="0 -960 960 960" width="40px" fill="#FFFFFF">
+                                    <path
+                                        d="M673-446.67H160v-66.66h513l-240-240L480-800l320 320-320 320-47-46.67 240-240Z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mt-5 mt-md-0" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card s2-box border-0 h-100">
+                            <div class="card-body p-5">
+                                <svg class="svg-clr" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
+                                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1">
+                                      <path stroke-dasharray="6" stroke-dashoffset="6" d="M12 21H17M12 21H7">
+                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.3s" values="6;0"></animate>
+                                      </path>
+                                      <path stroke-dasharray="6" stroke-dashoffset="6" d="M12 21V17">
+                                        <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="6;0"></animate>
+                                      </path>
+                                      <path stroke-dasharray="64" stroke-dashoffset="64" d="M12 17H3V5H21V17Z">
+                                        <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.3s" dur="0.6s" values="64;0"></animate>
+                                      </path>
+                                    </g>
+                                  </svg>
+                                  
+                                <h4 class="card-title mt-3">Full Stack Web Development
+                                </h4>
+                                <p class="mt-3">I turn ideas into responsive, user-friendly digital experiences. With a focus on performance, accessibility, and modern technologies, I create websites that look great and work flawlessly on every device.
+
+                                </p>
+                                <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" height="40px"
+                                    viewBox="0 -960 960 960" width="40px" fill="#FFFFFF">
+                                    <path
+                                        d="M673-446.67H160v-66.66h513l-240-240L480-800l320 320-320 320-47-46.67 240-240Z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 mt-5 mt-md-5 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card s2-box border-0 h-100">
+                            <div class="card-body p-5">
+                                <svg class="svg-clr" width="50" height="50" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor">
+                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                    <g id="SVGRepo_iconCarrier">
+                                      <path d="M7 10V12C7 12.6667 7.4 14 9 14C10.6 14 11 12.6667 11 12V10M14 10L15.5 12M17 14L15.5 12M15.5 12L17 10M15.5 12L14 14"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+                                      <circle cx="12" cy="12" r="10"
+                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"></circle>
+                                    </g>
+                                  </svg>
+                                  
+                                <h4 class="card-title mt-3">UI/UX Designing</h4>
+                                <p class="mt-3">I design intuitive, user-centered interfaces that enhance engagement and functionality. My approach ensures seamless user experiences through creative, thoughtful design solutions.
+
+                                </p>
+                                <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" height="40px"
+                                    viewBox="0 -960 960 960" width="40px" fill="#FFFFFF">
+                                    <path
+                                        d="M673-446.67H160v-66.66h513l-240-240L480-800l320 320-320 320-47-46.67 240-240Z" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="mt">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+
+    <section id="portfolio">
+        <div class="bg mt">
+            <div class="container">
+                <div class="text-center">
+                    <div class="subtitle">VISIT MY PORTFOLIO & KEEP YOUR FEEDBACK</div>
+                    <h1 class="f-bold mt-2 custom-text">My Portfolio</h1>
+                </div>
+
+                <div class="row mt-5">
+
+                    <!-- card 1 -->
+
+                    <div class="col-12 col-md-6 col-lg-4" data-aos="fade-up">
+                        <div class="card border-0 h-100 p-3 p-box" data-bs-toggle="modal" data-bs-target="#modal1">
+                            <div class="card-body">
+                                <div class="img-container">
+                                    <img class="w-100 rounded-3 img-hover" src="assets/media/img/project-1.png"
+                                        alt="...">
+                                </div>
+
+                                <h4 class="mt-4 p-hover">
+
+                                    Al-Shams SWS Website
+                                    <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" height="30px"
+                                        viewBox="0 -960 960 960" width="30px" fill="#ff014f">
+                                        <path
+                                            d="M673-446.67H160v-66.66h513l-240-240L480-800l320 320-320 320-47-46.67 240-240Z" />
+                                    </svg>
+                                </h4>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- modal 1 -->
+
+                    <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-fullscreen">
+                            <div class="modal-content rounded-3">
+
+                                <div class="btn-shadow">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body w-100 p-5">
+
+                                    <div class="row">
+
+                                        <div class="col-12 col-lg-6">
+                                            <img class="w-100 rounded-3" src="assets/media/img/project-1.png" alt="">
+                                        </div>
+
+                                        <div class="col-12 col-lg-6 mt-5 mt-lg-0">
+                                            <h2 class="f-w ms-4 mt-3">Alshams Social Welfare Society
+                                            </h2>
+                                            <p class="mt-4 fs-5 ms-4">Alshams SWS is a responsive frontend web project developed to represent a social welfare organization. The website is designed to raise awareness, promote donations, and provide clear information about the society’s mission, services, and impact in the community, including food aid, ration donations, Ramazan & Eid packages, and free coaching classes.</p>
+                                            <a href="https://alshams-sws.vercel.app/" target="_blank"><button class="btn p-3 mt-3 w-100 ms-4" style="letter-spacing: 2px;">VIEW
+                                                PROJECT</button></a> 
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 2 -->
+
+                    <div class="col-12 col-md-6 col-lg-4 mt-5 mt-sm-5 mt-md-0" data-aos="fade-up" data-aos-delay="100">
+                        <div class="card border-0 h-100 p-3 p-box" data-bs-toggle="modal" data-bs-target="#modal2">
+                            <div class="card-body">
+                                <div class="img-container">
+                                    <img class="w-100 rounded-3 img-hover" src="assets/media/img/project-2.png"
+                                        alt="...">
+                                </div>
+                                <h4 class="mt-4 p2-hover">Al-Fajar Foundation
+                                    <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" height="30px"
+                                        viewBox="0 -960 960 960" width="30px" fill="#ff014f">
+                                        <path
+                                            d="M673-446.67H160v-66.66h513l-240-240L480-800l320 320-320 320-47-46.67 240-240Z" />
+                                    </svg>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- modal 2 -->
+
+                    <div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-fullscreen">
+                            <div class="modal-content rounded-3">
+
+                                <div class="btn-shadow">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body w-100 p-5">
+
+                                    <div class="row">
+
+                                        <div class="col-12 col-lg-6">
+                                            <img class="w-100 rounded-3" src="assets/media/img/project-2.png" alt="">
+                                        </div>
+
+                                        <div class="col-12 col-lg-6 mt-5 mt-lg-0">
+                                            <h2 class="f-w ms-4 mt-3">Al-Fajar Foundation Swat</h2>
+                                            <p class="mt-4 fs-5 ms-4">Al-Fajar Foundation Swat is a responsive frontend web project developed to represent a blood donation and social welfare foundation. The website is designed to create awareness, encourage donations, and provide clear information about the foundation’s mission, services, and impact in the community.</p>
+                                                <a href="https://alfajar-foundation.vercel.app/" target="_blank"><button class="btn p-3 mt-3 w-100 ms-4" style="letter-spacing: 2px;">VIEW
+                                                    PROJECT</button></a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card 3 -->
+
+                    <div class="col-12 col-md-6 col-lg-4 mt-5 mt-lg-0 mt-5 mt-sm-5" data-aos="fade-up" data-aos-delay="300">
+                        <div class="card border-0 h-100 p-3 p-box" data-bs-toggle="modal" data-bs-target="#modal3">
+                            <div class="card-body">
+                                <div class="img-container">
+                                    <img class="w-100 rounded-3 img-hover" src="assets/media/img/project-3.png"
+                                        alt="...">
+                                </div>
+                                <h4 class="mt-4 p4-hover">CMS - (Coming Soon...)
+                                    <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" height="30px"
+                                        viewBox="0 -960 960 960" width="30px" fill="#ff014f">
+                                        <path
+                                            d="M673-446.67H160v-66.66h513l-240-240L480-800l320 320-320 320-47-46.67 240-240Z" />
+                                    </svg>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- modal 3 -->
+
+                    <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-fullscreen">
+                            <div class="modal-content rounded-3">
+
+                                <div class="btn-shadow">
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body w-100 p-5">
+
+                                    <div class="row">
+
+                                        <div class="col-12 col-lg-6">
+                                            <img class="w-100 rounded-3" src="assets/media/img/project-3.png" alt="">
+                                        </div>
+
+                                        <div class="col-12 col-lg-6 mt-5 mt-lg-0">
+                                            <h2 class="f-w ms-4 mt-3">CMS</h2>
+                                            <p class="mt-4 fs-5 ms-4">Upcoming Project...</p>
+                                                <a href="" target="_blank"><button class="btn p-3 mt-3 w-100 ms-4" style="letter-spacing: 2px;">VIEW
+                                                    PROJECT</button></a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="mt">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume -->
+
+    <section id="resume">
+        <div class="bg mt">
+            <div class="container">
+                <div class="text-center">
+                    <div class="subtitle">7+ YEARS OF EXPERIENCE</div>
+                    <h1 class="f-bold mt-2 custom-text">My Resume</h1>
+                </div>
+
+                <!-- tabs -->
+
+                <div class="container">
+                    <ul class="nav nav-tabs row g-0 mt-5 justify-content-center" id="myTab" role="tablist">
+                        <li class="col-12 col-md-3 d-flex" role="presentation">
+                            <button class="nav-link active p-box p-4 w-100 mb-4 fs-6" id="home-tab" data-bs-toggle="tab"
+                                data-bs-target="#home-tab-pane" role="tab" aria-controls="home-tab-pane"
+                                aria-selected="true">Education</button>
+                        </li>
+                        <li class="col-12 col-md-3 d-flex" role="presentation">
+                            <button class="nav-link p-box p-4 w-100 mb-4 fs-6" id="profile-tab" data-bs-toggle="tab"
+                                data-bs-target="#profile-tab-pane" type="button" role="tab"
+                                aria-controls="profile-tab-pane" aria-selected="false">Professional Skills</button>
+                        </li>
+                        <li class="col-12 col-md-3 d-flex" role="presentation">
+                            <button class="nav-link p-box p-4 w-100 mb-4 fs-6" id="contact-tab" data-bs-toggle="tab"
+                                data-bs-target="#contact-tab-pane" type="button" role="tab"
+                                aria-controls="contact-tab-pane" aria-selected="false">Experience</button>
+                        </li>
+                    </ul>
+
+
+                </div>
+
+                <!-- contents -->
+
+                <div class="tab-content" id="myTabContent">
+
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
+                        tabindex="0">
+                        <div class="bg mt-3">
+                            <div class="container">
+                                <div>
+                                    <div class="row justify-content-center">
+                                        <div class="col-12 col-md-6 col-lg-5" data-aos="fade-up">
+                                            <div class="s2-box mt-4 p-5 rounded-3 w-100 h-100">
+                                                <span>
+                                                    <h4 class="h4">BS Computer Science</h4>
+                                                    <p class="p-date">University of Swat (2021 - 2025)
+                                                    </p>
+                                                    <hr class="mt-4">
+                                                    <p>Completed a 4-year degree, gaining a strong foundation in the fundamentals of computer science, including programming, data structures, algorithms, and computer systems. This education laid the groundwork for advanced learning and a career in software development.</p>
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 col-md-6 col-lg-5 mt-5 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+                                            <div class="s2-box mt-4 p-5 rounded-3 w-100 h-100">
+                                                <span>
+                                                    <h4 class="h4">Professional Certifications</h4>
+                                                    <p class="p-date">Online Courses (2024)
+                                                    </p>
+                                                    <hr class="mt-4">
+                                                    <p>Completed specialized courses in Web Development (USAID), Python Programming, UI/UX Design, and Cybersecurity through Coursera. Gained hands-on experience in building responsive web applications, designing intuitive user interfaces, programming with Python, and implementing secure systems.</p>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+                        tabindex="0">
+                        <div class="container">
+                            <div class="row mt-5 justify-content-center">
+                                <div class="col-md-6">
+                                    <h3 class="progressbar-title">Frontend Development (React, Bootstrap)</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: 100%; background: #ff014f;">
+                                            <span class="progress-icon fa fa-check"
+                                                style="border-color:#ff014f; color:#ff014f;"></span>
+                                            <div class="progress-value">100%</div>
+                                        </div>
+                                    </div>
+
+                                    <h3 class="progressbar-title">Python & Django</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: 95%; background: #ff014f;">
+                                            <span class="progress-icon fa fa-check"
+                                                style="border-color:#ff014f; color:#ff014f;"></span>
+                                            <div class="progress-value">80%</div>
+                                        </div>
+                                    </div>
+
+                                    <h3 class="progressbar-title">Full Stack Development</h3>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: 90%; background: #ff014f;">
+                                            <span class="progress-icon fa fa-check"
+                                                style="border-color:#ff014f; color:#ff014f;"></span>
+                                            <div class="progress-value">75%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab"
+                        tabindex="0">
+                        <div class="bg mt-4">
+                            <div class="container">
+                                <div>
+                                    <div class="row justify-content-center">
+                                        <div class="col-12 col-md-6 col-lg-5" data-aos="fade-up">
+                                            <div class="s2-box mt-4 p-5 w-100 h-100 rounded-3">
+                                                <span>
+                                                    <h4 class="h4">Full Stack Developer</h4>
+                                                    <p>CircleX Pvt Ltd</p>
+                                                    <hr class="mt-4">
+                                                    <p>As a Full Stack Web Developer, I design and develop dynamic, responsive web applications that combine robust backend functionality with intuitive frontend design. Experienced in Python, Django, React, JavaScript, HTML, CSS, and Bootstrap, I build complete solutions that include secure APIs, database integration, and optimized user experiences.</p>
+                                                </span>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-12 col-md-6 col-lg-5 mt-5 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+                                            <div class="s2-box mt-4 p-5 w-100 h-100 rounded-3">
+                                                <span>
+                                                    <h4 class="h4">Internship / Training</h4>
+                                                    <p>Mideast Pakistan</p>
+                                                    <hr class="mt-4">
+                                                    <p>I am currently working on multiple web development projects, focusing on building responsive, scalable, and user-friendly applications. Some of the key projects include:
+                                                        Alshams Social Welfare Society (SWS), Alfajar Foundation, Content Management System (CMS).
+                                                    </p>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- contents -->
+                </div>
+
+                <hr class="mt">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial -->
+
+    <section id="clients">
+        <div class="bg mt">
+            <div class="container">
+
+                <div class="text-center">
+                <div class="subtitle">WHAT OUR CLIENTS SAY</div>
+                    <h1 class="f-bold mt-2 custom-text">Testimonial</h1>
+                </div>
+
+                <div id="myCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
+                    <!-- Carousel indicators -->
+                    <ul class="carousel-indicators mt-5 mt-sm-5 mt-md-5 mt-lg-0">
+                        <ol data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></ol>
+                        <ol data-bs-target="#myCarousel" data-bs-slide-to="1"></ol>
+                        <ol data-bs-target="#myCarousel" data-bs-slide-to="2"></ol>
+                    </ul>
+                    <!-- Wrapper for carousel items -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active h-100">
+                            <div class="img-box"><img class="t-profile" src="assets/media/img/client-1.jpeg" alt="">
+                            </div>
+                            <p class="testimonial w-75 mx-auto mt-5">Working with Nighat Soom was a great experience. She delivered a clean, responsive website exactly as requested and paid close attention to detail. Communication was clear throughout the project, and the final result exceeded expectations.
+                            </p>
+                            <p class="overview"><b>Marwa Ali</b>Frontend Developer</p>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="img-box"><img src="assets/media/img/client-2.jpeg" alt=""></div>
+                            <p class="testimonial w-75 mx-auto mt-5">Nighat Soom demonstrated strong full stack development skills and a deep understanding of both frontend and backend requirements. The project was completed on time, and the functionality was smooth and well-structured. Highly recommended.
+                                </p>
+                            <p class="overview"><b>Kausar Khan</b>Full Stack Developer</p>
+
+                        </div>
+                        <div class="carousel-item">
+                            <div class="img-box"><img src="assets/media/img/client-3.jpg" alt=""></div>
+                            <p class="testimonial w-75 mx-auto mt-5">Professional, reliable, and skilled. Nighat Soom transformed our ideas into a functional and user-friendly web solution. Her ability to handle backend logic along with frontend design made the entire process seamless.
+                            </p>
+                            <p class="overview"><b>Jawairia Ali</b>Data Analyst</p>
+
+                        </div>
+                    </div>
+                    <!-- Carousel controls -->
+                    <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <hr class="mt">
+
+            </div>
+        </div>
+    </section>
+
+   
+    <!-- Contact -->
+
+    <section id="contact">
+        <div class="bg mt">
+            <div class="container">
+                <div class="text-center">
+                    <div class="subtitle">CONTACT</div>
+                    <h1 class="f-bold mt-2 custom-text">Contact With Me</h1>
+                </div>
+
+                <div class="row mx-auto">
+                    <div class="col-12 col-md-5" data-aos="fade-up">
+                        <div class="p-box rounded-3 mt-5 p-4 w-100 h-100">
+                            <span class="w-25">
+                                <div class="img-container">
+                                    <img class="p-img rounded-3 w-100 img-hover" src="assets/media/img/contact.jpg"
+                                        alt="">
+                                </div>
+                                <h2 class="mt-4 f-w">Nighat Soom</h2>
+                                <div class="mt-3 opacity">Django Developer</div>
+                                <div class="mt-3 opacity">I am available for freelance work. Connect with me via call, email or social media accounts.
+                                </div>
+                                <div class="mt-3 opacity">Phone: <a class="text-decoration-none linkedin fs-md">+92 346 4278103</a></div>
+                                <div>Email: <a href="mailto:kashafsiya@gmail.com" class="text-decoration-none linkedin fs-md">nighat.developer7@gmail.com</a> </div>
+                            </span>
+
+                            <div class="mt-5">
+                                <div class="h">FIND ME ON</div>
+                                <div class="mt-4">
+
+                                    <div class="row custom-gap-xs">
+                                        <div class="col-2 col-md-4 col-lg-2">
+                                            <a class="box1" href="https://api.whatsapp.com/send/?phone=%2B923464278103&text&type=phone_number&app_absent=0" target="_blank">
+                                                <svg class="z-index" width="20" height="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-2 col-md-4 col-lg-2 ms-2 ms-sm-0 ms-lg-2">
+                                            <a class="box1" href="mailto:kashafsiya@gmail.com" target="_blank">
+                                                <svg class="z-index" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" width="20" height="20" fill="#000000"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/></svg>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-2  col-md-4 col-lg-2 ms-2 ms-sm-0 ms-lg-2">
+                                            <a class="box1" href="https://www.linkedin.com/in/nighat-soom-574750272/" target="_blank"><svg class="z-index"
+                                                    xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="feather feather-linkedin">
+                                                    <path
+                                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                                    </path>
+                                                    <rect x="2" y="9" width="4" height="12"></rect>
+                                                    <circle cx="4" cy="4" r="2"></circle>
+                                                </svg></a>
+                                        </div>
+
+                                        <div class="col-2 col-md-4 col-lg-2 mt-md-3 mt-lg-0 ms-2 ms-sm-0 ms-lg-2">
+                                            <a class="box1" href="https://github.com/Nighat-Soom" target="_blank">
+                                                <svg class="z-index" xmlns="http://www.w3.org/2000/svg" width="20"
+                                                    height="20" viewBox="0 0 496 512">
+                                                    <path
+                                                        d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3 .3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5 .3-6.2 2.3zm44.2-1.7c-2.9 .7-4.9 2.6-4.6 4.9 .3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3 .7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3 .3 2.9 2.3 3.9 1.6 1 3.6 .7 4.3-.7 .7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3 .7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3 .7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                                                </svg>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 col-md-7 mt-5 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+                        <div class="p-box mt-5 rounded-4 p-4 w-100 h-100">
+
+                            <form action="submit" method="post">
+
+                                <span class="row">
+                                    <div class="col-12 col-sm-6 form-group">
+                                        <label for="name">YOUR NAME</label>
+                                        <input type="text" id="name" name="name" required>
+                                    </div>
+
+                                    <div class="col-12 col-sm-6 form-group">
+                                        <label for="name">PHONE NUMBER</label>
+                                        <input type="tel" id="name" name="name" required>
+                                    </div>
+                                </span>
+
+                                <div class="form-group">
+                                    <label for="email">EMAIL</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="email">SUBJECT</label>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="message">MESSAGE</label>
+                                    <textarea id="message" name="message" rows="8" required></textarea>
+                                </div>
+
+                                <span class="submit-btn p-box mt-5">
+                                    <div type="submit">SEND MESSAGE</div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="feather feather-arrow-right arrow">
+                                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                                        <polyline points="12 5 19 12 12 19"></polyline>
+                                    </svg>
+                                </span>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+                <hr class="mt">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Rights Reserved -->
+
+    <section class="mt">
+        <div class="bg">
+            <div class="container">
+                <div class="mx-auto text-center">
+                    <img class="profile" src="assets/media/img/img (3).jpg" alt="">
+                </div>
+
+                <div class="text-center mt-4 copyright pb">
+                    Copyright ©
+                    <script>document.write(new Date().getFullYear());</script> All rights reserved  <div class="mt-2"> Developed
+                    by : <a class="text-decoration-none linkedin" target="_blank"
+                        href="https://www.linkedin.com/in/nighat-soom-574750272/">Nighat Soom</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- JS Links -->
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/bootstrap.js.map"></script>
+    <script src="assets/js/script.js"></script>
+
+
+    <!-- aos -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, 
+            once: false  
+        });
+    </script>
+    
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let offcanvasNavbar = document.getElementById("offcanvasNavbar");
+            let navLinks = document.querySelectorAll(".nav-link");
+      
+            navLinks.forEach(function (link) {
+                link.addEventListener("click", function () {
+                    let bsOffcanvas = bootstrap.Offcanvas.getInstance(offcanvasNavbar);
+                    if (bsOffcanvas) {
+                        bsOffcanvas.hide();
+                    }
+                });
+            });
+        });
+      </script>
+      
+
+</body>
+
+</html>
